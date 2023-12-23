@@ -8,7 +8,7 @@ if(x) console.log("I an false");
 
 const interface = 'audio';
 
-  printArea() {
+  function printArea() {
     const area = this.length * this.width;
     const [name, color] = this.getNameAndColor();
     console.log(`The area of the ${name} ${color} is {area}`);
